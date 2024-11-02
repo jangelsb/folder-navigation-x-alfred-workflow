@@ -12,5 +12,3 @@ Adds helpful Universal Actions to the Folder Navigation
 ### Delete & Stay in Alfred
 
 ### Copy & Paste File
-
-Search for folders with the
