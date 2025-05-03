@@ -15,7 +15,8 @@ Adds helpful Universal Actions to the Folder Navigation
     * Converts any image to [webp](https://developers.google.com/speed/webp)
     * Dependency `cwebp` - installed via `brew install webp`
 * **Shrink video**
-    * Shrinks video to a much smaller size
+    * Shrinks video to a much smaller size -> up to 95% smaller (see screenshot below)!
+    * Perfect for shrinking screen recordings, simulator videos, and more
     * Dependency `ffmpeg` - installed via `brew install ffmpeg`  
 
 ---
@@ -36,6 +37,9 @@ Adds helpful Universal Actions to the Folder Navigation
 ### Copy & Paste File
 ![Copy & Paste File](images/copy-paste.webp)
 
+
+### Shrink Videos
+![Shrink Videos](images/shrink-video.webp)
 
 ---
 
