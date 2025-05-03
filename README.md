@@ -11,24 +11,30 @@ Adds helpful Universal Actions to the Folder Navigation
 * **Delete & Stay in Alfred**
 * **Copy & Paste File**
     * Allows you to copy any file type (png, txt, pdf, zip, etc) to the clilpboard and paste in one action
+* **Convert to webp**
+    * Converts any image to [webp](https://developers.google.com/speed/webp)
+    * Dependency `cwebp` - installed via `brew install webp`
+* **Shrink video**
+    * Shrinks video to a much smaller size
+    * Dependency `ffmpeg` - installed via `brew install ffmpeg`  
 
 ---
 
-## Usage
+## 🚀 Usage
 
 ### Create new folder here
-![Create new folder here](images/folder-a.png)
-![Giving a folder a name](images/folder-b.png)
+![Create new folder here](images/folder-a.webp)
+![Giving a folder a name](images/folder-b.webp)
 
 ### Create new file here
-![Create new file here](images/file-a.png)
-![Giving a file a name](images/file-b.png)
+![Create new file here](images/file-a.webp)
+![Giving a file a name](images/file-b.webp)
 
 ### Delete & Stay in Alfred
-![Delete & Stay in Alfred](images/delete.png)
+![Delete & Stay in Alfred](images/delete.webp)
 
 ### Copy & Paste File
-![Copy & Paste File](images/copy-paste.png)
+![Copy & Paste File](images/copy-paste.webp)
 
 
 ---
@@ -40,3 +46,30 @@ Adds helpful Universal Actions to the Folder Navigation
 3. Press `→` on a file or folder to launch the Universal Actions
 4. Search for commands
 3. Enjoy & God bless 
+
+---
+
+## 📝 Change Log
+
+#### v2025.2
+* New action to convert images to webp!
+    * Dependency `cwebp` - installed via `brew install webp`  
+    * If `cwebp` is not installed - action will tell you to install it
+* New action to shrink videos!
+    * Dependency `ffmpeg` - installed via `brew install ffmpeg`  
+    * If `ffmpeg` is not installed - action will tell you to install it
+
+---
+
+#### v2025.1
+* Refreshed icons!
+* Removed the copy file name to clipboard when renaming a file, as it was unnecessary and made pasting a new name impossible
+* Fixed the Copy & Paste File action to now reliably paste the file - you can copy and paste any file type (e.g., pdfs, txt, zip, etc) 😎
+* Updated create file action to use the new TextView instead of just touching the file - now you can give the text file content or not 
+* Update create folder action to not navigate you back to the newly created folder but the parent folder - so you can easily do actions on the created folder (like make a new file, etc)
+
+---
+
+#### v2024.3
+* Added support to rename files
+* Added the word "touch" to the create new file action
