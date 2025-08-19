@@ -23,6 +23,7 @@ Adds helpful Universal Actions to the Folder Navigation
 ---
 
 ## 🚀 Usage
+![Demo](images/demo.gif)
 
 ### Create new folder here
 ![Create new folder here](images/folder-a.webp)
