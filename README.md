@@ -19,6 +19,9 @@ Adds helpful Universal Actions to the Folder Navigation
     * Shrinks video to a much smaller size -> up to 95% smaller!
     * Perfect for shrinking screen recordings, simulator videos, and more
     * Dependency `ffmpeg` - installed via `brew install ffmpeg`  
+* **Convert to gif**
+    * Converts video to a gif
+    * Dependency `ffmpeg` - installed via `brew install ffmpeg`  
 
 ---
 
@@ -55,27 +58,7 @@ Adds helpful Universal Actions to the Folder Navigation
 
 ---
 
-## 📝 Change Log
+## 📝 Version History
 
-#### v2025.2
-* New action to convert images to webp!
-    * Dependency `cwebp` - installed via `brew install webp`  
-    * If `cwebp` is not installed - action will tell you to install it
-* New action to shrink videos!
-    * Dependency `ffmpeg` - installed via `brew install ffmpeg`  
-    * If `ffmpeg` is not installed - action will tell you to install it
+For full change log see: https://github.com/jangelsb/folder-navigation-x-alfred-workflow/releases
 
----
-
-#### v2025.1
-* Refreshed icons!
-* Removed the copy file name to clipboard when renaming a file, as it was unnecessary and made pasting a new name impossible
-* Fixed the Copy & Paste File action to now reliably paste the file - you can copy and paste any file type (e.g., pdfs, txt, zip, etc) 😎
-* Updated create file action to use the new TextView instead of just touching the file - now you can give the text file content or not 
-* Update create folder action to not navigate you back to the newly created folder but the parent folder - so you can easily do actions on the created folder (like make a new file, etc)
-
----
-
-#### v2024.3
-* Added support to rename files
-* Added the word "touch" to the create new file action
